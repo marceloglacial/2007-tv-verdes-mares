@@ -1,0 +1,74 @@
+/* Projeto: TV Verdes Mares
+   Desenvolvedor: Marcelo Glacial
+   Início: 05/09/2007
+   Ultima alteracao: 05/09/2007
+*/
+
+/* Menu -------------------------------------------*/
+#Menu ul li a {
+	_padding:7px 9px;
+}
+
+/* Principal -------------------------------------------*/
+#Conteudo h2 a {
+	overflow:hidden; /* IE6 */
+}
+/* Secundario ------------------------------------------*/
+#Secundarios {
+	zoom: 1; /* corrigir bug de haslayout no IE7 */
+}
+#Secundarios h2 {
+	overflow:hidden; /* IE6 */
+}
+#Secundarios h3 a {
+	font-size:65%;
+}
+/* Outros  ---------------------------------------------*/
+#Outros {
+	_margin-left:5px; /* IE6 burrim */
+	_padding-right:0px; /* IE6 burrim */
+}
+#Outros div.outros {
+	_margin-right:18px;
+}
+#Programa #Outros {
+	_display:inline;
+}
+#Programa div.outros {
+	display:inline;
+	_margin:0 0 0 11px;
+	_padding:0 0 15px 0;
+}
+
+
+/* Ultima Hora  -------------------------------------- */
+#Ultima_hora {
+	margin-top:30px;
+	zoom:1; /* bug de renderização do IE */
+}
+/* Programacao  --------------------------------------- */
+#Programacao a {
+	zoom:1; /* corrige a não exibição da borda */
+}
+
+/* Institucional --------------------------------------- */
+#Institucional a:hover {
+	position:relative; /* evita que o link suba */
+	top:1px;
+	zoom:1; /* corrige a não exibição da borda */
+}
+
+
+/* Noticia
+-------------------------------------------------------------------------- */
+#Noticia .assuntos, /* Corrige o bug de renderizacao nos links */
+#Noticia #Relacionadas {
+	zoom:1;
+}
+#Noticia #Comente p {
+	_height:1px;
+}
+#Noticia #Comente p textarea, 
+#Noticia #Comente p input {
+	_float:left;
+}

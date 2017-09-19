@@ -1,0 +1,431 @@
+/* Projeto: TV Verdes Mares
+   Desenvolvedor: Marcelo Glacial
+   In�cio: 05/09/2007
+   Ultima alteracao: 17/09/2007
+*/
+
+
+/* Reset  
+---------------------------------------------------------------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../img/fundo_site.jpg) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#484848;
+}
+hr {
+	display:none;
+}
+a {
+	text-decoration:none;
+	color:#666;
+}
+
+/* Site
+---------------------------------------------------------------------------------- */
+#Site {
+	width:775px;
+	margin:0 auto;
+	position:relative;
+	background:url(../img/conteudo_fundo.jpg) center 102px no-repeat;
+}
+
+/* Cabecalho  
+---------------------------------------------------------------------------------- */
+#Cabecalho h1 a {
+	display:block;
+	width:166px;
+	height:100px;
+	text-indent:-99999px;
+	background:url(../img/cabecalho_fundo.jpg) no-repeat;
+}
+
+/* 
+---------------------------------------------------------------------------------- */
+#Atalhos {
+	display:none;
+}
+
+
+/* Menu 
+---------------------------------------------------------------------------------- */
+#Menu {
+	position:absolute;
+	top:65px;
+	right:15px;
+}
+#Menu h2 {
+	display:none;
+}
+#Menu ul {
+	list-style:none;
+}
+#Menu ul li {
+	float:left;
+}
+#Menu ul li a {
+	display:block;
+	padding:7px 10px;
+	color:#FFF;
+	
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size:95%;
+	text-decoration:none;
+}
+#Menu ul li a:hover {
+	background:#7A9B34;
+}
+
+/* Busca 
+---------------------------------------------------------------------------------- */
+#Busca {
+	position:absolute;
+	top:0;
+	right:5px;
+	width:185px;
+	height:65px;
+	background:url(../img/busca_fundo.jpg);
+}
+#Busca * {
+	border:0;
+}
+#Busca legend {
+	display:none;
+}
+#Busca button {
+	display:block;
+	text-indent:-9999px;
+	width:15px;
+	height:15px;
+	background:none;
+	
+	position:relative;
+	top:26px;
+	left:20px;
+}
+#Busca button:hover {
+	cursor:hand;
+}
+#Busca input {
+	width:120px;
+	float:left;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	text-transform:lowercase;
+	color:#666;
+
+	position:relative;
+	top:26px;
+	left:40px;
+}
+
+
+/* Conteudo  
+---------------------------------------------------------------------------------- */
+#Conteudo {
+	margin-top:2px;
+	padding-top:35px;
+}
+#Home #Conteudo {
+	background:url(../img/principal_fundo.jpg) center 245px no-repeat;
+}
+#Conteudo a:hover {
+	border-bottom:solid 1px;
+/*	text-decoration:underline;*/
+}
+
+/* Titulos  --------------------------------------------------------------- */
+#Conteudo h2 {
+	text-indent:-9999px;
+	height:16px;
+	margin-bottom:10px;
+}
+#Conteudo h2 a {
+	display:block;
+}
+#Conteudo h2 a:hover {
+	border:0;
+}
+.jmd {
+	background:url(../img/titulo_jmd.jpg) no-repeat;
+}
+
+/* Principal ---------------------------------*/
+
+#Principal {
+	margin-top:80px;
+	float:left;
+	padding-left:25px;
+	width:470px;
+}
+#Principal h3 a {
+	color:#638A11;
+	font-size:95%;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+#Principal #Flash {
+	font-size:70%;
+	background:url(../img/outros_fundo.jpg) repeat-x;
+	text-align:center;
+}
+#Principal #Flash strong {
+	color:#FF0000;
+	font-size:120%;
+}
+#Principal #Flash a {
+	color:#000;
+	font-weight:bold;
+	border-bottom:solid 1px;
+}
+#Principal div.video {
+	float:left;
+	margin-right:10px;
+}
+
+
+#Principal .data {
+	font-size:70%;
+	color:#999;
+	margin:7px 0;
+}
+#Principal .chamada a {
+	font-size:75%;
+	color:#484848;
+	line-height:1.5em;
+}
+#Principal .assuntos {
+	font-size:70%;
+	color:#999;
+	margin:7px 10px 0 290px;
+	padding-top:5px;
+	border-top:solid 1px #EEE;
+}
+#Principal .assuntos a {
+	color:#999;
+	font-style:italic;
+}
+
+/* Secundarios --------------------------------*/
+
+#Secundarios {
+	margin:5px 0 0 510px;
+	padding-right:30px;
+	font-size:70%;
+	position:relative;
+}
+#Secundarios h2 {
+	background:url(../img/titulo_des_prog.jpg);
+	width:195px;
+	height:19px;
+	margin-bottom:10px;
+}
+#Secundarios a {
+	color:#777;
+}
+#Secundarios img {
+	float:left;
+	width:110px;
+	margin-right:10px;
+	border: solid 1px #CCC;
+}
+#Secundarios a:hover img {
+	border: solid 1px #999;
+}
+#Secundarios div.secundario {
+	position:relative;
+	margin-bottom:10px;
+	border-bottom:solid 1px #F0F0F0;
+	height:87px;
+	overflow:hidden;
+}
+#Secundarios h3 a {
+	position:absolute;
+	top:-3px;
+	left:122px;
+	color:#BBB;
+	font-size:90%;
+}
+#Secundarios h4 {
+	padding:15px 0 5px 0;
+	font-size:120%;
+}
+#Secundarios h4 a {
+	color:#000;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* Outros -------------------------------------*/
+#Outros {
+	clear:both;
+	margin:30px 0 0 10px;
+	padding:20px 0 0 20px;
+	background:url(../img/outros_fundo.jpg) repeat-x;
+
+	float:left;
+	width:465px;
+	overflow:hidden;
+	font-size:75%;
+}
+#Outros h2 {
+	display:none;
+}
+#Outros h4 {
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:120%;
+	padding:5px 0;
+}
+#Outros h4 a {
+	color:#000;
+}
+#Outros .outros {
+	float:left;
+	width:135px;
+	padding-bottom:20px;
+	margin-right:19px;
+}
+#Outros .outros img {
+	border:solid 1px #999;
+	width:135px;
+}
+
+/* Ultima Hora
+---------------------------------------------------------------------------------- */
+#Ultima_hora {
+	padding-right:10px;
+	margin:40px 0 0 511px;
+	border-left:solid 1px #E1E1E1;
+	font-size:75%;
+}
+#Ultima_hora h2 a {
+	margin-left:10px;
+	height:25px;
+	background:url(../img/ultmas_titulo.jpg) no-repeat;
+}
+#Ultima_hora dl {
+	border-top:solid 1px #E1E1E1;
+	margin-top:15px;
+}
+#Ultima_hora dl dt {
+	padding:10px 0 3px 10px;
+	font-weight:bold;
+	color:#000;
+}
+#Ultima_hora dl dt a {
+	color:#000;
+}
+#Ultima_hora dl dd {
+	border-bottom:solid 1px #E1E1E1;
+	padding:0 0 10px 10px;
+}
+#Ultima_hora p a {
+	display:block;
+	padding:10px;
+	text-transform:lowercase;
+	color:#000;
+	font-weight:bold;
+}
+#Ultima_hora p a:hover {
+	background:#F1F1F1;
+	border:0;
+}
+
+/* Programacao
+---------------------------------------------------------------------------------- */
+#Programacao {
+	background:url(../img/programacao_fundo.jpg) left bottom no-repeat;
+	margin:20px 0 20px 505px;
+	height:65px;
+	font-size:65%;
+	text-transform:uppercase;
+	padding-left:20px;
+}
+
+#Programacao h2 {
+	width:185px;
+	height:20px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../img/programacao_titulo.jpg) no-repeat;
+	border-bottom:solid 1px #E1E1E1;
+	padding-bottom:7px;
+	margin-bottom:7px;
+}
+h2.programcao {
+	background:url(../img/programacao_titulo.jpg) no-repeat;
+	padding-bottom:5px;
+}
+/* Institucional
+---------------------------------------------------------------------------------- */
+#Institucional {
+	position:absolute;
+	bottom:21px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+}
+#Institucional h2 {
+	display:none;
+}
+#Institucional a {
+	color:#FFF;
+}
+#Institucional a:hover {
+	border-bottom:solid 1px #FFF;
+}
+#Institucional ul {
+	padding-left:400px;
+}
+#Institucional ul li {
+	display:inline;
+	margin-right:5px;
+	padding-right:5px;
+	border-right:solid 1px #FFF;
+}
+#Institucional .final {
+	border:0;
+}
+
+/* Rodape
+---------------------------------------------------------------------------------- */
+html {
+	background:url(../img/rodape_fundo.jpg) bottom repeat-x;	
+}
+#Rodape {
+	clear:both;
+	font-size:70%;
+	color:#FFF;
+	padding:20px 0 15px 30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#Rodape a {
+	color:#FFF;
+}
+#Rodape .fn {
+	float:left;
+	padding-right:10px;
+}
+#Rodape .org,
+#Rodape #hcard-Marcelo-Glacial {
+	display:none;
+}
+
+/* Publicidade
+---------------------------------------------------------------------------------- */
+#Publicidade {
+	position:absolute;
+	top:140px;
+	left:25px;
+	border:solid 1px #000;
+	_display:none;
+}
+#Publicidade h2 {
+	display:none;
+}
+#Publicidade img {
+	float:left;
+}

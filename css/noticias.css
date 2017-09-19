@@ -1,0 +1,267 @@
+/* Projeto: TV Verdes Mares
+   Desenvolvedor: Marcelo Glacial
+   Início: 14/09/2007
+   Ultima alteracao: 17/09/2007
+*/
+
+
+/* Principal
+---------------------------------------------------------------------------------- */
+#Noticia #Principal h2 {
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:solid 1px #85AD33;
+}
+#Noticia #Principal h3 {
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	color:#000;
+	margin-bottom:10px;
+}
+#Noticia #Principal .chamada {
+	font-style:italic;
+	color:#666;
+	padding-bottom:5px;
+}
+#Noticia #Principal .data {
+	color:#CCC;
+	padding-bottom:5px;
+}
+#Noticia #Texto p {
+	padding-bottom:10px;
+	font-size:75%;
+	line-height:1.5em;
+}
+
+/* Extras   
+---------------------------------------------------------------------------------- */
+#Noticia #Extras {
+	float:right;
+	width:227px;
+	margin-left:10px;
+}
+#Noticia #Extras ul {
+	list-style:none;
+}
+
+/* Feraamentas   
+---------------------------------------------------------------------------------- */
+#Noticia #Ferramentas {
+	text-align:right;
+	position:relative;
+}
+#Noticia #Ferramentas h4 {
+	display:none;
+}
+#Noticia #Ferramentas ul li a {
+	padding:3px 0;
+	display:block;
+	width:227px;
+	height:15px;
+
+	border-bottom:solid 1px #CCC;
+	font-size:70%;
+	color:#999;
+}
+#Noticia #Ferramentas ul li a:hover {
+	background:#F9F9F9;
+	color:#000;
+}
+
+/* Video   
+---------------------------------------------------------------------------------- */
+#Noticia #Video {
+	border-bottom:solid 1px #CCC;
+	padding-bottom:10px;
+	z-index:1;
+}
+#Noticia #Video h4 {
+	background:url(../img/titulo_video.jpg) right center no-repeat;
+	text-indent:-9999px;
+	margin:7px 0;
+}
+#Noticia #Principal div.video {
+	float:none;
+}
+
+
+/* Imagem   
+---------------------------------------------------------------------------------- */
+#Noticia #Imagem {
+	border-bottom:solid 1px #CCC;
+	padding-bottom:10px;
+}
+#Noticia #Imagem h4 {
+	background:url(../img/titulo_imagem.jpg) right center no-repeat;
+	text-indent:-9999px;
+	margin:5px 0;
+}
+#Noticia #Imagem img {
+	float:left;
+	border:solid 1px #999;
+	margin-bottom:5px;
+	width:223px;
+}
+#Noticia #Imagem img:hover {
+	border:solid 1px #000;
+}
+#Noticia #Imagem p {
+	font-size:70%;
+	font-style:italic;
+	text-align:right;
+}
+#Noticia #Imagem p strong {
+	color:#669900;
+}
+
+/* Audio   
+---------------------------------------------------------------------------------- */
+#Noticia #Audio {
+	border-bottom:solid 1px #CCC;
+	padding-bottom:10px;
+}
+#Noticia #Audio h4 {
+	background:url(../img/titulo_audio.jpg) right center no-repeat;
+	text-indent:-9999px;
+	margin:7px 0;
+}
+
+
+/* Assuntos   
+---------------------------------------------------------------------------------- */
+#Noticia .assuntos {
+	margin:5px 0 30px 0;
+	padding:8px 15px;
+	border:0;
+	border-left:solid 3px #85AD33;
+	background:#F4F4F4;
+	color:#85AD33;
+}
+#Noticia .assuntos a {
+	color:#333;
+	font-style:normal;
+	margin-left:3px;
+}
+
+/* Noticias Relacionadas   
+---------------------------------------------------------------------------------- */
+#Conteudo #Adsense {
+	margin-bottom:20px;
+}
+
+
+/* Noticias Relacionadas   
+---------------------------------------------------------------------------------- */
+#Conteudo #Relacionadas {
+	font-size:75%;
+	margin-bottom:30px;
+	color:#000;
+}
+
+#Conteudo #Relacionadas h4 {
+	background:url(../img/titulo_relacionadas.jpg) left center no-repeat;
+	text-indent:-9999px;
+	margin:5px 0;
+}
+#Conteudo #Relacionadas dl {
+	margin:10px 0;
+	border-top:solid 1px #CCC;
+}
+#Conteudo #Relacionadas dl dt {
+	float:left;
+	margin-right:5px;
+	padding:7px 0;
+}
+#Conteudo #Relacionadas dl dt a {
+	color:#669900;
+	margin:0 5px;
+}
+#Conteudo #Relacionadas dl dd {
+	padding:7px 0;
+	border-bottom:solid 1px #CCC;
+}
+#Conteudo #Relacionadas p a {
+	color:#999; 
+	text-transform:lowercase;
+	font-weight:bold;
+}
+
+/* Comentários
+---------------------------------------------------------------------------------- */
+#Conteudo #Comentarios {
+	font-size:75%;
+	margin-bottom:30px;
+	border-bottom:solid 1px #CCC;
+}
+
+#Conteudo #Comentarios h4 {
+	background:url(../img/titulo_comentarios.jpg) left center no-repeat;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
+#Conteudo #Comentarios ol {
+	list-style:none;
+}
+#Conteudo #Comentarios ol li {
+	background:url(../img/comentarios_lista.jpg) left top repeat-x;
+	padding:10px;
+	line-height:1.5em;
+}
+#Conteudo #Comentarios ol li strong {
+	color:#000;
+}
+#Conteudo #Comentarios ol li a strong {
+	border-bottom:solid 1px;
+}
+#Conteudo #Comentarios ol li a:hover strong {
+	color:#AAA;
+}
+
+#Conteudo #Comentarios ol li em {
+	color:#AAA;
+	margin-left:7px;
+}
+
+#Conteudo #Comente {
+	font-size:75%;
+	margin-bottom:20px;
+}
+#Conteudo #Comente fieldset {
+	border:0;
+	background:url(../img/titulo_comente.jpg) left top no-repeat;
+	padding-top:40px;
+}
+#Noticia.formularios #Conteudo #Comente fieldset {
+	background:none;
+}
+#Conteudo #Comente legend {
+	display:none;
+}
+#Conteudo #Comente label {
+	display:block;
+	float:left;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size:120%;
+	margin-right:15px;
+	color:#333;
+	width:100px;
+	text-align:right;
+}
+#Conteudo #Comente input,
+#Conteudo #Comente textarea,
+#Conteudo #Comente button {
+	border:solid 1px #BBB;
+	border-left:solid 4px #ABC080;
+	margin-bottom:15px;
+	padding:2px 5px;
+	width:340px;
+	font-size:100%;
+}
+#Conteudo #Comente textarea {
+	font-family:Arial, Helvetica, sans-serif;
+}
+#Conteudo #Comente button {
+	background:#FFF;
+	margin-left:115px;
+	width:355px;
+	background:url(../img/comentarios_botao.jpg);
+}

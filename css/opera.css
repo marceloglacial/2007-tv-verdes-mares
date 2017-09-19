@@ -1,0 +1,4 @@
+/* CSS para corrigir bugs no Opera/Safari */
+#Secundarios h3 a {
+	font-size:70%;
+}
