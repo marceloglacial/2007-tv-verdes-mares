@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2007-tv-verdes-mares
+https://marceloglacial.github.io/2007-tv-verdes-mares/front-end/
 
 ## Wireframes
 
